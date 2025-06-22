@@ -9,5 +9,5 @@ jobs:
       - name: Add issue to project
         uses: actions/add-to-project@v0.5.0
         with:
-          project-url: "https://github.com/orgs/koteworld/projects/2"  
+          project-url: "https://github.com/orgs/koteworld/projects/1"
           github-token: ${{ secrets.REPO_PAT_TOKEN }}
